@@ -1,10 +1,10 @@
 # Zava Storefront - ASP.NET Core MVC
 
-A simple e-commerce storefront application built with .NET 6 ASP.NET MVC.
+A simple e-commerce storefront application built with ASP.NET Core MVC.
 
 ## Features
 
-- **Product Listing**: Browse a catalog of 8 sample products with images, descriptions, and prices
+- **Product Listing**: Browse a catalog of 10 sample products with images, descriptions, and prices
 - **Shopping Cart**: Add products to cart with session-based storage
 - **Cart Management**: View cart, update quantities, remove items
 - **Checkout**: Simple checkout process that clears cart and shows success message
@@ -12,7 +12,6 @@ A simple e-commerce storefront application built with .NET 6 ASP.NET MVC.
 
 ## Technology Stack
 
-- .NET 6
 - ASP.NET Core MVC
 - Bootstrap 5
 - Bootstrap Icons
@@ -65,31 +64,22 @@ ZavaStorefront/
 
 ## Product Images
 
-The application includes 8 sample products. Product images are referenced from:
-- `/wwwroot/images/products/`
+The application uses product images referenced from [Lorem Picsum](https://picsum.photos).
 
-If images are not found, the application automatically falls back to placeholder images from placeholder.com.
-
-To add custom product images, place JPG files in `wwwroot/images/products/` with these names:
-- headphones.jpg
-- smartwatch.jpg
-- speaker.jpg
-- charger.jpg
-- usb-hub.jpg
-- keyboard.jpg
-- mouse.jpg
-- webcam.jpg
+If images fail to load, the application automatically falls back to placeholder images.
 
 ## Sample Products
 
-1. Wireless Bluetooth Headphones - $89.99
-2. Smart Fitness Watch - $199.99
-3. Portable Bluetooth Speaker - $49.99
-4. Wireless Charging Pad - $29.99
-5. USB-C Hub Adapter - $39.99
-6. Mechanical Gaming Keyboard - $119.99
-7. Ergonomic Wireless Mouse - $34.99
-8. HD Webcam - $69.99
+1. Wireless Noise-Canceling Headphones - $199.99
+2. Smart Fitness Watch - $149.95
+3. 4K Action Camera - $129.50
+4. Bluetooth Speaker - $89.99
+5. Laptop Stand - $39.95
+6. Mechanical Keyboard - $99.00
+7. Ergonomic Office Chair - $249.00
+8. USB-C Hub Docking Station - $59.99
+9. Smart LED Light Bulb - $24.99
+10. Electric Standing Desk - $499.00
 
 ## Application Flow
 
